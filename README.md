@@ -661,7 +661,8 @@ function hydrate(drink) {
   </a>
 </p>
 
-#
+<br/>
+
 ## :unlock: Licença
 
 Este projeto está licenciado sob a Licença MIT - consulte [LICENSE](https://opensource.org/licenses/MIT) para maiores detalhes.
