@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img align="center" alt="Imagem trybe" src="https://www.origamid.com/projetos/og-origamid.png" width="400px" />
+  <img align="center" alt="Imagem trybe" src="https://i.ibb.co/d4W2x4g/trybe.png" width="300px" />
 </h1>
 
 <h3 align="center">
@@ -59,11 +59,11 @@ Acesse o deploy do projeto [aqui](https://edusouza-programmer.github.io/css_com_
 - <p><a href="#1"> :pushpin: 1.</a> Usando o operador &&</p>
 - <p><a href="#2"> :pushpin: 2.</a> Área do triângulo</p>
 
-#
+<br/>
 
 ## :books: Exercícios
 
-#
+<br/>
 
 ### 1°
 
@@ -110,9 +110,9 @@ Lembre-se que a área de um triângulo é calculada através da seguinte fórmul
  <summary> :pencil2: Código Javascript</summary>
 
 ```js
-function compareTrue(a, b) {
+function calcArea(base, height) {
   // seu código aqui
-  return a && b;
+  return (base * height) / 2;
 }
 ```
 
@@ -123,10 +123,6 @@ function compareTrue(a, b) {
     <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
   </a>
 </p>
-
-#
-
-
 
 #
 ## :unlock: Licença
