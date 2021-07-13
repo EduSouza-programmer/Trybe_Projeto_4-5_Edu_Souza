@@ -50,10 +50,6 @@ Você vai desenvolver funções seguindo os requisitos especificados para o corr
 
 ## :postbox: Entrega
 
-#### Concluido :clipboard:
-
-Acesse o deploy do projeto [aqui](https://edusouza-programmer.github.io/css_com_sass-origamid/).
-
 ### :clipboard: Sumário
 
 - <p><a href="#1"> :pushpin: 1.</a> Usando o operador &&</p>
