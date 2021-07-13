@@ -6,7 +6,7 @@
   Curso realizado na Trybe - Edu Souza o/
 </h3>
 
-<blockquote align="center">“A vida não se acaba quando deixamos de viver e sim quando deixamos de buscar algo nela! - Bob Marley”</blockquote>
+<blockquote align="center">“O caminho nunca é largo demais quando um amigo nos acompanha - Marcelli Cristina”</blockquote>
 
 <h4 align="center">
   Repositório - Projeto Playground functions
@@ -58,12 +58,12 @@ Acesse o deploy do projeto [aqui](https://edusouza-programmer.github.io/css_com_
 
 - <p><a href="#1"> :pushpin: 1.</a> Usando o operador &&</p>
 - <p><a href="#2"> :pushpin: 2.</a> Área do triângulo</p>
+- <p><a href="#3"> :pushpin: 3.</a> Dividindo a frase</p>
+- <p><a href="#4"> :pushpin: 3.</a> Concatenação de strings</p>
 
 <br/>
 
 ## :books: Exercícios
-
-<br/>
 
 ### 1°
 
@@ -113,6 +113,93 @@ Lembre-se que a área de um triângulo é calculada através da seguinte fórmul
 function calcArea(base, height) {
   // seu código aqui
   return (base * height) / 2;
+}
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+
+### 3°
+
+Escreva uma função com o nome `splitSentence`, a qual receberá uma string e retornará uma array de strings separadas por cada espaço na string original.
+
+Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['go', 'Trybe']`.
+
+#### Resposta:
+
+<details>
+ <summary> :pencil2: Código Javascript</summary>
+
+```js
+function splitSentence(name) {
+  // seu código aqui
+  let arr = name.split(' ');
+  return arr;
+
+}
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+### 4°
+
+Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM'`, independente do tamanho da array.
+
+Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
+
+#### Resposta:
+
+<details>
+ <summary> :pencil2: Código Javascript</summary>
+
+```js
+function concatName(names) {
+  // seu código aqui
+  return `${names[names.length - 1]}, ${names[0]}`;
+
+}
+```
+
+</details>
+
+<p align="right">
+    <a href="#clipboard-Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+### 5°
+
+Escreva uma função com o nome `concatName` que, ao receber uma array de strings, retorne uma string com o formato `'ÚLTIMO ITEM, PRIMEIRO ITEM'`, independente do tamanho da array.
+
+Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
+
+#### Resposta:
+
+<details>
+ <summary> :pencil2: Código Javascript</summary>
+
+```js
+function concatName(names) {
+  // seu código aqui
+  return `${names[names.length - 1]}, ${names[0]}`;
+
 }
 ```
 
