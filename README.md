@@ -50,7 +50,7 @@ Você vai desenvolver funções seguindo os requisitos especificados para o corr
 
 ## :postbox: Entrega
 
-### :clipboard: Sumário
+#### :clipboard: Sumário
 
 - <p><a href="#1"> :pushpin: 1.</a> Usando o operador &&</p>
 - <p><a href="#2"> :pushpin: 2.</a> Área do triângulo</p>
